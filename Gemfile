@@ -2,25 +2,40 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 
+<<<<<<< HEAD
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.11.0'
 end
 
+=======
+group :development do
+  gem 'sqlite3', '1.3.5'
+end
+
+
+>>>>>>> 0113811510053bb02dbf9943d69d6af72015a3ff
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '3.2.5'
   gem 'coffee-rails', '3.2.2'
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0113811510053bb02dbf9943d69d6af72015a3ff
   gem 'uglifier', '1.2.3'
 end
 
 gem 'jquery-rails', '2.0.2'
 
+<<<<<<< HEAD
 group :test do
   gem 'capybara', '1.1.2'
 end
 
+=======
+>>>>>>> 0113811510053bb02dbf9943d69d6af72015a3ff
 group :production do
   gem 'pg', '0.12.2'
 end
